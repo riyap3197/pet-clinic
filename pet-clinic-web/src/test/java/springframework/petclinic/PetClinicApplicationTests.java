@@ -2,8 +2,9 @@ package springframework.petclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import sprinkframework.petclinic.PetClinicApplication;
 
-@SpringBootTest
+@SpringBootTest(classes = PetClinicApplication.class)
 class PetClinicApplicationTests {
 
 	@Test
