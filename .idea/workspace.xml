@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bc29e450-4116-43d4-8eb8-1aef709a8b3f" name="Changes" comment="Inital Project Add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkout" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkout" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/PetType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -149,7 +151,7 @@
       <workItem from="1686075644978" duration="81000" />
       <workItem from="1686075859314" duration="56000" />
       <workItem from="1686076146416" duration="2739000" />
-      <workItem from="1686602778582" duration="6541000" />
+      <workItem from="1686602778582" duration="6822000" />
     </task>
     <task id="LOCAL-00001" summary="Inital Project Add">
       <created>1686074794743</created>
