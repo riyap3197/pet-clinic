@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc29e450-4116-43d4-8eb8-1aef709a8b3f" name="Changes" comment="Inital Project Add">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/java/sprinkframework" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetClinicApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.PetClinicApplication">
     <configuration name="PetClinicApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pet-clinic-web" />
       <extension name="coverage">
@@ -145,7 +147,7 @@
       <workItem from="1686075644978" duration="81000" />
       <workItem from="1686075859314" duration="56000" />
       <workItem from="1686076146416" duration="2739000" />
-      <workItem from="1686602778582" duration="5472000" />
+      <workItem from="1686602778582" duration="5962000" />
     </task>
     <task id="LOCAL-00001" summary="Inital Project Add">
       <created>1686074794743</created>
