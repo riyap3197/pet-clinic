@@ -1,11 +1,11 @@
 package sprinkframework.petclinic.services.map;
 
 import sprinkframework.petclinic.model.Pet;
-import sprinkframework.petclinic.services.CrudService;
+import sprinkframework.petclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
