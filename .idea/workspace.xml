@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bc29e450-4116-43d4-8eb8-1aef709a8b3f" name="Changes" comment="Inital Project Add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/services/SpecialitiesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/services/SpecialityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/services/map/SpecialityMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/services/map/SpecialityMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/services/map/VetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/services/map/VetServiceMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/sprinkframework/petclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/sprinkframework/petclinic/bootstrap/DataLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +163,7 @@
       <workItem from="1686075859314" duration="56000" />
       <workItem from="1686076146416" duration="2739000" />
       <workItem from="1686602778582" duration="15458000" />
-      <workItem from="1686773672310" duration="10211000" />
+      <workItem from="1686773672310" duration="11084000" />
     </task>
     <task id="LOCAL-00001" summary="Inital Project Add">
       <created>1686074794743</created>
