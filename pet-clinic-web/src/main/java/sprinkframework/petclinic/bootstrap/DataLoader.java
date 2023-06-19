@@ -3,10 +3,7 @@ package sprinkframework.petclinic.bootstrap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import sprinkframework.petclinic.model.*;
-import sprinkframework.petclinic.services.OwnerService;
-import sprinkframework.petclinic.services.PetTypeService;
-import sprinkframework.petclinic.services.SpecialityService;
-import sprinkframework.petclinic.services.VetService;
+import sprinkframework.petclinic.services.*;
 
 import java.time.LocalDate;
 
@@ -17,12 +14,14 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialityService specialityService;
+    private final VisitService visitService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialityService specialityService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialityService specialityService, VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialityService = specialityService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -84,6 +83,12 @@ public class DataLoader implements CommandLineRunner {
         riyasPet.setName("Simba");
         owner2.getPet().add(riyasPet);
         ownerService.save(owner2);
+
+        Visit catVisit = new Visit();
+        catVisit.setPet(riyasPet);
+        catVisit.setDate(LocalDate.now());
+        catVisit.setDescription("Snezzy Kitty");
+        visitService.save(catVisit);
         System.out.println("Loaded Owners...");
 
         Vet vet1 = new Vet();

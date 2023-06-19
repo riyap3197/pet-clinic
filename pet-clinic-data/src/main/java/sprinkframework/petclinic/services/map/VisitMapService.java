@@ -1,10 +1,12 @@
 package sprinkframework.petclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import sprinkframework.petclinic.model.Visit;
 import sprinkframework.petclinic.services.VisitService;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
     @Override
     public Set<Visit> findAll() {
