@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bc29e450-4116-43d4-8eb8-1aef709a8b3f" name="Changes" comment="Inital Project Add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Speciality.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Speciality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/sprinkframework/petclinic/model/Vet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +161,7 @@
       <workItem from="1686075859314" duration="56000" />
       <workItem from="1686076146416" duration="2739000" />
       <workItem from="1686602778582" duration="15458000" />
-      <workItem from="1686773672310" duration="14944000" />
+      <workItem from="1686773672310" duration="15232000" />
     </task>
     <task id="LOCAL-00001" summary="Inital Project Add">
       <created>1686074794743</created>
