@@ -1,5 +1,6 @@
 package sprinkframework.petclinic.services.springdatajpa;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import sprinkframework.petclinic.model.Speciality;
 import sprinkframework.petclinic.repositories.SpecialityRepository;
@@ -9,6 +10,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Service
+@Profile("springdatajpa")
 public class SpecialitySDJpaService implements SpecialityService {
 
     private final SpecialityRepository specialityRepository;

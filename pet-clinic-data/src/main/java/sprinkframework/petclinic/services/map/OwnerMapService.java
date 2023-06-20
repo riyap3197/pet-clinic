@@ -1,9 +1,9 @@
 package sprinkframework.petclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import sprinkframework.petclinic.model.Owner;
 import sprinkframework.petclinic.model.Pet;
-import sprinkframework.petclinic.model.PetType;
 import sprinkframework.petclinic.services.OwnerService;
 import sprinkframework.petclinic.services.PetService;
 import sprinkframework.petclinic.services.PetTypeService;
@@ -11,12 +11,13 @@ import sprinkframework.petclinic.services.PetTypeService;
 import java.util.Set;
 
 @Service
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
+@Profile({"default", "map"})
+public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;
     private final PetService petService;
 
-    public OwnerServiceMap(PetTypeService petTypeService, PetService petService) {
+    public OwnerMapService(PetTypeService petTypeService, PetService petService) {
         this.petTypeService = petTypeService;
         this.petService = petService;
     }
